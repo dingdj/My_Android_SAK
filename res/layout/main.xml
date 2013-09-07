@@ -14,5 +14,19 @@
         android:layout_height="wrap_content"
         android:text="@string/fragment" />
     
+    <Button
+        android:id="@+id/saveFileInternalBtn"
+        android:layout_below="@id/fragementBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_file_internal" />
+    
+    <Button
+        android:id="@+id/saveFileExternalBtn"
+        android:layout_below="@id/saveFileInternalBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_file_external" />
+    
 
 </RelativeLayout>
